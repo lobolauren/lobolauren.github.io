@@ -1,0 +1,138 @@
+/* class styles*/
+#linkedin-icon, #email-icon, #github-icon {
+    width: 50px;
+    color: #340c03;
+}
+
+
+#github-icon {
+    height: 70%;
+}
+
+#faceshot-image {
+    border-radius: 40%;
+
+    /* width and height */
+    width: 200px;
+    height: 200px;
+}
+
+
+
+.container {
+    max-width: 1000px;
+}
+
+.bodyText {
+    padding: 2%;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+
+/* global styles */
+img {
+    max-width: 100%;
+}
+
+a, a:hover, a:focus, a:visited {
+    color: #340c03;
+    text-decoration: solid;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background-color: #a48b46;
+    color: #12183e;
+    font-family: system-ui, sans-serif;
+    line-height: 1.5; 
+    font-weight: 400;
+    height: 100%;
+    text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .2);
+    
+}
+
+/* used for centering the div in the middle of the page */
+.parentContainer {
+    height: 100%;
+
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+.row {
+    color: #340c03;
+    text-align: center;
+    bottom: 0;
+}
+
+#row_icons {
+    flex-wrap: nowrap;
+}
+
+.faceshot {
+    text-align: center;
+}
+
+#copyright {
+    margin: auto;
+    /* border: 3px solid green; */
+    text-align: center;
+}
+
+.position, .interests {
+    word-break: break-word;
+}
+
+/* media queries */
+@media (max-width: 575.98px) {
+    body {
+        align-items: unset;
+    }
+
+    .titleText {
+        padding-bottom: 10%;
+    }
+
+    .description {
+        font-size: 13px;
+    }
+
+    .bodyText {
+        padding: 2%;
+        text-align: center;
+        margin: auto;
+        width: 100%;
+    }
+}
+
+@media (max-width: 414px) {
+    
+}
+
+@media (max-width: 360px) {
+
+}
+
+@media (max-width: 320px) {
+    .name {
+        font-size: 24px;
+    }
+
+    #exploreVideo {
+        width: 250px;
+        height: 150px;
+    }
+}
+
+@media (max-height: 600px) {
+    #faceshot-image {
+        margin-top: 1%;
+    }
+
+   
+}
