@@ -1,7 +1,7 @@
 /* class styles*/
 #linkedin-icon, #email-icon, #github-icon {
     width: 50px;
-    color: #340c03;
+    color: #ffffff;
 }
 
 
@@ -13,8 +13,8 @@
     border-radius: 40%;
 
     /* width and height */
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
 }
 
 
@@ -36,8 +36,8 @@ img {
 }
 
 a, a:hover, a:focus, a:visited {
-    color: #340c03;
-    text-decoration: solid;
+    color: #bbe2cd;
+    text-decoration: Monospace;
 }
 
 html {
@@ -45,9 +45,9 @@ html {
 }
 
 body {
-    background-color: #a48b46;
-    color: #12183e;
-    font-family: system-ui, sans-serif;
+    background-color: #12281d;
+    color: #bbe2cd;
+    font-family: system-ui, Monospace;
     line-height: 1.5; 
     font-weight: 400;
     height: 100%;
@@ -65,7 +65,7 @@ body {
 }
 
 .row {
-    color: #340c03;
+    color: #bbe2cd;
     text-align: center;
     bottom: 0;
 }
